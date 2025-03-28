@@ -6,30 +6,26 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		045DC9392D951A2400A5F39E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 045DC9302D951A2400A5F39E /* Assets.xcassets */; };
+		045DC93B2D951A2400A5F39E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 045DC9332D951A2400A5F39E /* LaunchScreen.storyboard */; };
+		045DC93C2D951A2400A5F39E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 045DC9352D951A2400A5F39E /* Main.storyboard */; };
+		045DC93D2D951A2400A5F39E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045DC92F2D951A2400A5F39E /* AppDelegate.swift */; };
+		045DC93E2D951A2400A5F39E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045DC9362D951A2400A5F39E /* SceneDelegate.swift */; };
+		045DC93F2D951A2400A5F39E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045DC9372D951A2400A5F39E /* ViewController.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		0459D8522D96A9F3009FF8A1 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		045DC8DC2D95131000A5F39E /* FoodCombinations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodCombinations.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		045DC92F2D951A2400A5F39E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		045DC9302D951A2400A5F39E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		045DC9312D951A2400A5F39E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		045DC9322D951A2400A5F39E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		045DC9342D951A2400A5F39E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		045DC9362D951A2400A5F39E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		045DC9372D951A2400A5F39E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		045DC8EE2D95131200A5F39E /* Exceptions for "FoodCombinations" folder in "FoodCombinations" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 045DC8DB2D95131000A5F39E /* FoodCombinations */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		045DC8DE2D95131000A5F39E /* FoodCombinations */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				045DC8EE2D95131200A5F39E /* Exceptions for "FoodCombinations" folder in "FoodCombinations" target */,
-			);
-			path = FoodCombinations;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		045DC8D92D95131000A5F39E /* Frameworks */ = {
@@ -45,7 +41,8 @@
 		045DC8D32D95131000A5F39E = {
 			isa = PBXGroup;
 			children = (
-				045DC8DE2D95131000A5F39E /* FoodCombinations */,
+				0459D8522D96A9F3009FF8A1 /* README.md */,
+				045DC9382D951A2400A5F39E /* FoodCombinations */,
 				045DC8DD2D95131000A5F39E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -56,6 +53,44 @@
 				045DC8DC2D95131000A5F39E /* FoodCombinations.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		045DC92E2D951A2400A5F39E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				045DC9352D951A2400A5F39E /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		045DC9382D951A2400A5F39E /* FoodCombinations */ = {
+			isa = PBXGroup;
+			children = (
+				045DC9412D951AFA00A5F39E /* Model */,
+				045DC9402D951AE100A5F39E /* Controller */,
+				045DC92E2D951A2400A5F39E /* View */,
+				045DC92F2D951A2400A5F39E /* AppDelegate.swift */,
+				045DC9302D951A2400A5F39E /* Assets.xcassets */,
+				045DC9312D951A2400A5F39E /* Info.plist */,
+				045DC9332D951A2400A5F39E /* LaunchScreen.storyboard */,
+				045DC9362D951A2400A5F39E /* SceneDelegate.swift */,
+			);
+			path = FoodCombinations;
+			sourceTree = "<group>";
+		};
+		045DC9402D951AE100A5F39E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				045DC9372D951A2400A5F39E /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		045DC9412D951AFA00A5F39E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -72,9 +107,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				045DC8DE2D95131000A5F39E /* FoodCombinations */,
 			);
 			name = FoodCombinations;
 			packageProductDependencies = (
@@ -122,6 +154,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				045DC9392D951A2400A5F39E /* Assets.xcassets in Resources */,
+				045DC93B2D951A2400A5F39E /* LaunchScreen.storyboard in Resources */,
+				045DC93C2D951A2400A5F39E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,10 +167,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				045DC93D2D951A2400A5F39E /* AppDelegate.swift in Sources */,
+				045DC93E2D951A2400A5F39E /* SceneDelegate.swift in Sources */,
+				045DC93F2D951A2400A5F39E /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		045DC9332D951A2400A5F39E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				045DC9322D951A2400A5F39E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		045DC9352D951A2400A5F39E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				045DC9342D951A2400A5F39E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		045DC8F02D95131200A5F39E /* Debug */ = {
