@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0459D8542D9727BE009FF8A1 /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0459D8532D9727BE009FF8A1 /* Food.swift */; };
+		0459D8562D9727CF009FF8A1 /* FoodBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0459D8552D9727CF009FF8A1 /* FoodBrain.swift */; };
 		045DC9392D951A2400A5F39E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 045DC9302D951A2400A5F39E /* Assets.xcassets */; };
 		045DC93B2D951A2400A5F39E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 045DC9332D951A2400A5F39E /* LaunchScreen.storyboard */; };
 		045DC93C2D951A2400A5F39E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 045DC9352D951A2400A5F39E /* Main.storyboard */; };
@@ -17,6 +19,8 @@
 
 /* Begin PBXFileReference section */
 		0459D8522D96A9F3009FF8A1 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		0459D8532D9727BE009FF8A1 /* Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
+		0459D8552D9727CF009FF8A1 /* FoodBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodBrain.swift; sourceTree = "<group>"; };
 		045DC8DC2D95131000A5F39E /* FoodCombinations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodCombinations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		045DC92F2D951A2400A5F39E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		045DC9302D951A2400A5F39E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -67,8 +71,8 @@
 			isa = PBXGroup;
 			children = (
 				045DC9412D951AFA00A5F39E /* Model */,
-				045DC9402D951AE100A5F39E /* Controller */,
 				045DC92E2D951A2400A5F39E /* View */,
+				045DC9402D951AE100A5F39E /* Controller */,
 				045DC92F2D951A2400A5F39E /* AppDelegate.swift */,
 				045DC9302D951A2400A5F39E /* Assets.xcassets */,
 				045DC9312D951A2400A5F39E /* Info.plist */,
@@ -89,6 +93,8 @@
 		045DC9412D951AFA00A5F39E /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				0459D8532D9727BE009FF8A1 /* Food.swift */,
+				0459D8552D9727CF009FF8A1 /* FoodBrain.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -168,6 +174,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				045DC93D2D951A2400A5F39E /* AppDelegate.swift in Sources */,
+				0459D8562D9727CF009FF8A1 /* FoodBrain.swift in Sources */,
+				0459D8542D9727BE009FF8A1 /* Food.swift in Sources */,
 				045DC93E2D951A2400A5F39E /* SceneDelegate.swift in Sources */,
 				045DC93F2D951A2400A5F39E /* ViewController.swift in Sources */,
 			);

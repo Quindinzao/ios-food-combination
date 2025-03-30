@@ -53,45 +53,49 @@
                                     </view>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e2J-WR-RQ7">
                                         <rect key="frame" x="0.0" y="535" width="353" height="64"/>
+                                        <color key="backgroundColor" name="ButtonColor"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="64" id="6fe-HM-Tvu"/>
                                         </constraints>
-                                        <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="Button">
-                                            <backgroundConfiguration key="background" cornerRadius="18">
-                                                <color key="backgroundColor" name="ButtonColor"/>
-                                            </backgroundConfiguration>
-                                            <fontDescription key="titleFontDescription" type="system" weight="medium" pointSize="20"/>
-                                            <color key="baseForegroundColor" name="BackgroundColor"/>
-                                        </buttonConfiguration>
+                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                                        <color key="tintColor" name="ButtonColor"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Button">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="choiceMade:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Rfs-cw-3oY"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Er-4k-PgC">
                                         <rect key="frame" x="0.0" y="615" width="353" height="64"/>
+                                        <color key="backgroundColor" name="ButtonColor"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="64" id="J98-qq-SrK"/>
                                         </constraints>
-                                        <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="Button">
-                                            <backgroundConfiguration key="background" cornerRadius="18">
-                                                <color key="backgroundColor" name="ButtonColor"/>
-                                            </backgroundConfiguration>
-                                            <fontDescription key="titleFontDescription" type="system" weight="medium" pointSize="20"/>
-                                            <color key="baseForegroundColor" name="BackgroundColor"/>
-                                        </buttonConfiguration>
+                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Button">
+                                            <color key="titleColor" name="BackgroundColor"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="choiceMade:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8Z8-11-3Ms"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ReP-es-6CH">
                                         <rect key="frame" x="0.0" y="695" width="353" height="64"/>
+                                        <color key="backgroundColor" name="ButtonColor"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="64" id="Nwg-Yw-kYU"/>
                                         </constraints>
-                                        <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="Button">
-                                            <backgroundConfiguration key="background" cornerRadius="18">
-                                                <color key="backgroundColor" name="ButtonColor"/>
-                                            </backgroundConfiguration>
-                                            <fontDescription key="titleFontDescription" type="system" weight="medium" pointSize="20"/>
-                                            <color key="baseForegroundColor" name="BackgroundColor"/>
-                                        </buttonConfiguration>
+                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Button">
+                                            <color key="titleColor" name="BackgroundColor"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="choiceMade:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Dl4-Z7-uGW"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -107,6 +111,9 @@
                     </view>
                     <connections>
                         <outlet property="myView" destination="8bC-Xf-vdC" id="eHl-7j-Yib"/>
+                        <outlet property="optionOne" destination="e2J-WR-RQ7" id="jxq-jC-tpT"/>
+                        <outlet property="optionThree" destination="ReP-es-6CH" id="xa9-gQ-4Ff"/>
+                        <outlet property="optionTwo" destination="2Er-4k-PgC" id="JPE-98-obZ"/>
                         <outlet property="titleLabel" destination="rgw-Qb-Jt2" id="aq9-AV-GqR"/>
                         <outlet property="titleLabelView" destination="rUE-vk-7EK" id="566-vD-4CH"/>
                     </connections>
